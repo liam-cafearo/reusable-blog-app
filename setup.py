@@ -15,7 +15,7 @@ setup(
     description='A simple Django app to create blogs',
     long_description=README,
     url='https://github.com/liam-cafearo',
-    author='Liam Cafearo'
+    author='Liam Cafearo',
     author_email='lcafearo@gmail.com',
     classifiers=[
         'Environment :: Web Environment',
