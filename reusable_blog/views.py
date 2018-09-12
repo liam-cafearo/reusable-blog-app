@@ -12,7 +12,7 @@ from .forms import BlogPostForm
 def post_list(request):
     """
     Create a view that will return a
-    lsit of Posts that were published prior to 'now'
+    list of Posts that were published prior to 'now'
     and render them to the 'blogposts.html' template
     """
     posts = Post.objects.filter(published_date__lte=timezone.now()
